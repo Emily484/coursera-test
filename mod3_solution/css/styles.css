@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body {
+  font-size: 16px;
+  font-family: Arial;
+}
+
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border: 2px solid black;
+	color: black;
+}
+
+.row {
+	margin: 15px;
+}
+
+.row > div {
+  background-color: gray;
+  height: 1000px;
+  padding-top: 0px;
+  padding-right: 20px; 
+  padding-left: 20px;
+}
+
+div {
+	margin-top: 0px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 0px;
+	color: black;
+}
+
+p {
+	color: black;
+}
+
+h1 {
+	color: black;
+}
+
+.navbar-brand {
+	color: black;
+}
+
+
+.navbar-default .navbar-brand {
+	color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    padding: 0px;
+}
+
+.navbar-nav {
+	margin: 0px;
+}
+
+.navbar-default .navbar-nav>li>a>span {
+    background: white;
+    border: 2px solid black;
+    height: 30px;
+    vertical-align: center;
+}
+
+.navbar-collapse {
+	padding: 0px;
+}
